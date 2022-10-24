@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,21 +22,20 @@
     <header class="header-line">
       <div class="container">
         <div class="header-container">
-          <div class="header-link">
-            <a class="logo-link link" href="/index.html"
-              >Web<span class="logo-header">Studio</span></a
-            >
-            <!-- Links-->
+          <a class="logo-link link" href="/index.html"
+            >Web<span class="logo-header">Studio</span></a
+          >
+          <!-- Links-->
 
-            <nav class="header-nav">
-              <ul class="nav-list list">
-                <li><a class="link-nav link" href="./index.html">Студія</a></li>
-                <li><a class="link-nav link current" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="link-nav link" href="#">Контакти</a></li>
-              </ul>
-            </nav>
-          </div>
-          <ul class="nav-list list">
+          <nav class="header-nav">
+            <ul class="nav-list list">
+              <li><a class="link-nav link" href="./index.html">Студія</a></li>
+              <li><a class="link-nav link current" href="./portfolio.html">Портфоліо</a></li>
+              <li><a class="link-nav link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+
+          <ul class="contact-list list">
             <li>
               <a class="mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -57,12 +56,9 @@
             <li><button class="filter-button btn">Дизайн</button></li>
             <li><button class="filter-button btn">Маркетинг</button></li>
           </ul>
-        </div>
-      </section>
-      <!-- projects -->
-      <section class="projects-portfolio">
-        <div class="container">
-          <h2 class="visually-hidden">Приклади</h2>
+
+          <!-- projects -->
+
           <ul class="projects-flex list">
             <li>
               <img src="./images/techno.jpg" alt="Techno" width="370" />
@@ -135,11 +131,11 @@
     <footer class="footer">
       <div class="container">
         <a class="logo-link link" href="/index.html">Web<span class="logo-footer">Studio</span></a>
-        <address>
+        <address class="address">
           <ul class="address-footer list">
             <li>
               <a
-                class="address link"
+                class="address-map link"
                 href="https://goo.gl/maps/CgqQX7eJWSS4vk4c6"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
